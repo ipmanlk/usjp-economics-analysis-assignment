@@ -1,0 +1,76 @@
+
+% \documentclass[12pt, twoside]{report}
+\documentclass[12pt]{report}
+\usepackage{mydocsetup}
+
+%=============== START OF THE DOCUMENT
+\begin{document}
+\onehalfspacing
+
+%=============== SETUP: PARAGRAPH STYLES
+\setlength{\parindent}{3em} % start indentation
+\setlength{\parskip}{1em} % vertical space between two paragraphs
+
+%========= PAGE: TITLE PAGE (COVER)
+\thispagestyle{empty}
+\begin{titlepage}
+	\begin{center}
+		\vspace*{2cm}
+		% \includegraphics[width=0.15\textwidth]{uoc/uocLogo.jpg}\\
+		\vspace{1cm}
+		{\LARGE Analysis of Thalawkelle Tea Estate PLC}
+		\vspace{2cm}
+		\begin{large}
+
+			\textbf{ITC 2242 – Economics and Finance}\\
+			\vspace{2cm}
+			Dissanayake D.A.N.P. \\
+			TE92515\\
+			ICT/18/813 \\
+
+
+			\vspace{2cm}
+			University of Sri Jayewardenepura.\\
+			Faculty Of Technology \\
+			Department of ICT\\
+			\vspace{2.5cm}
+			\vfill
+		\centering
+				{\small This assignment is submitted to the University of Sri Jayewardenepura as a partial requirement of the ITC 2242 – ECONOMICS AND FINANCE}
+		\end{large}
+	\end{center}
+\end{titlepage}
+
+
+%========== PAGE: TABLE OF CONTENT
+\newpage
+\setcounter{page}{2}
+\pagenumbering{arabic}
+% \addcontentsline{toc}{chapter}{\bf{Contents}}
+\begin{singlespacing}
+	\tableofcontents
+\end{singlespacing}
+\setlength{\parskip}{1em}
+\renewcommand{\baselinestretch}{2.0}
+
+%================ SETUP: SECTION TITLE FONT SIZES
+\titleformat*{\section}{\fontsize{16}{19}\bfseries\normalfont}
+\titleformat*{\subsection}{\fontsize{14}{17}\bfseries\normalfont}
+\titleformat*{\subsubsection}{\fontsize{12}{15}\bfseries\normalfont}
+
+%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+% Main body of Thesis
+%========= Start of Thesis 
+\newpage
+% \setcounter{page}{1}
+\setcounter{secnumdepth}{3} % enable subsubsection numbering
+\onehalfspacing
+
+\chapter{Introduction}
+This chapter introduces background information of the selected company for the project, the problems going to be solved, objectives hoping to accomplish, and the scope of the project.
+
+
+
+
+\end{document}
+
